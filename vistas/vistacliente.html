@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="../controladores/controladorformulario.php" method="post">
+        <label >Codigo: </label>
+    <input type="number" name="codigo" id="">
+    <br>
+    <label >Nombres: </label>
+    <input type="text" name="nombres" id="">
+    <br>
+    <label >Apellidos: </label>
+    <input type="text" name="apellidos" id="">
+    <br>
+    <label >Direccion: </label>
+    <input type="text" name="direccion" id="">
+    <button type="submit" name="operacion" value="guardar">Guardar</button>
+    <button type="submit" name="operacion" value="eliminar">Eliminar</button>
+
+    <input type="text" name="controlador" value="cliente" hidden>
+    </form>
+</body>
+</html>
